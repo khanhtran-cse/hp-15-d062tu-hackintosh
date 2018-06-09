@@ -1,0 +1,4 @@
+menuentry "Windows 10" {
+search --fs-uuid --no-floppy --set=root 8A0E-A048
+chainloader (${root})/EFI/Microsoft/Boot/bootmgfw-win.efi
+}
