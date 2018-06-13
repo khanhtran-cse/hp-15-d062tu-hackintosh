@@ -245,7 +245,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string> nv_disable=1 -ath9485 kext-dev-mode=1 -v</string>
+		<string>kext-dev-mode=1 -ath9485 nv_disable=1</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -351,7 +351,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>7</string>
+			<integer>7</integer>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -389,7 +389,7 @@
 					<key>Type</key>
 					<string>Windows</string>
 					<key>Volume</key>
-					<string>46DE3894-68B7-462B-B9F9-23C8CEC83D21</string>
+					<string>40B3A247-2D92-47A6-A5A0-A50D3916693D</string>
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>
