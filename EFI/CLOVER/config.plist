@@ -479,7 +479,7 @@
 				<key>Comment</key>
 				<string>HDMI-audio HD4000 0x01660003, port 0205</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				AgUAAAAEAAAHBAAA
@@ -497,7 +497,7 @@
 				<key>Comment</key>
 				<string>HDMI-audio HD4000 0x01660003, port 0304</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				AwQAAAAEAACBAAAA
@@ -515,7 +515,7 @@
 				<key>Comment</key>
 				<string>HDMI-audio HD4000 0x01660003, port 0406</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				BAYAAAAEAACBAAAA
@@ -531,45 +531,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Zeroing 10ec0885 codec</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				hQjsEA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Patching 11d41984 with 10ec0282 codec</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				hBnUEQ==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				ggLsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>AppleHDA - ALC282 (2 of 3)</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				hAjsEA==
@@ -617,6 +581,44 @@
 				<key>Replace</key>
 				<data>
 				ggLsEA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix Bluetooth 30 seconds delay patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				D4UHAQ==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>IOBluetoothHostControllerUSBTransport</string>
+				<key>Replace</key>
+				<data>
+				D4QHAQ==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - fcvo, 10.12.x (credit the-darkvoid)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.AirPort.Brcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
 				</data>
 			</dict>
 		</array>
