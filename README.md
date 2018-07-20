@@ -20,9 +20,14 @@ This build running on MacOs X 10.13.6
 
 # Working
     1.  Wifi
-    2.  Audio
-    3.  Native bightlen
+    2.  Audio with native hotkey
+    3.  Native brightness hotkey
     4.  Touchpad (test with three finger)
+    5.  USB 
+    6.  CPU
+    7.  Battery
+    8.  Camera
+    
 # Installation
     1.  Install newest Clover
     2.  Remove EFI folder in EFI volume
