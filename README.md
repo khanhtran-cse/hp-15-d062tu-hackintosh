@@ -1,5 +1,5 @@
-# HP 15 D062TU
-This build running on MacOs X 10.13.6
+# HP 15 D062TU KEXT
+This build for hp 15 d062tu and running on MacOs X 10.13.6
 
 ![Alt text](https://ivanov-audio.com/wp-content/uploads/2014/01/Hackintosh-Featured-Image.png)
 
