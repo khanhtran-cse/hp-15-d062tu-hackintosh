@@ -279,8 +279,12 @@
 					<string>3b d, 37 d, 7d d, 7d u, 37 u, 3b u</string>
 					<key>ActionSwipeLeft</key>
 					<string>3b d, 37 d, 7b d, 7b u, 37 u, 3b u</string>
+					<key>ActionSwipeLeft2f</key>
+					<string>37 d, 38 d, 21 d, 21 u, 38 u, 37 u</string>
 					<key>ActionSwipeRight</key>
 					<string>3b d, 37 d, 7c d, 7c u, 37 u, 3b u</string>
+					<key>ActionSwipeRight2f</key>
+					<string>37 d, 38 d, 1e d, 1e u, 38 u, 37 u</string>
 					<key>ActionSwipeUp</key>
 					<string>3b d, 37 d, 7e d, 7e u, 37 u, 3b u</string>
 					<key>Breakless PS2</key>
