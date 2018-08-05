@@ -15,8 +15,8 @@ This build for hp 15 d062tu and running on MacOs X 10.13.6
     9.Bios Version:   F.1B
 
 # Know problems
-    1.  Bluetooh card
-    2.  Card reader (not tested)
+    1.  Bluetooh not working
+    2.  Card reader
 
 # Working
     1.  Wifi
@@ -31,10 +31,10 @@ This build for hp 15 d062tu and running on MacOs X 10.13.6
 # Installation
     1.  Install newest Clover
     2.  Remove EFI folder in EFI volume
-    3.  Copy EFI folder to EFI volume
+    3.  Copy EFI folder from this responsitory to EFI volume
     4.  Copy L/E kexts to Library/Extentions folder
     5.  Copy S/L/E kexts to Systems/Library/Extentions folder
-    6.  Run Kext Utility and enter your password
-    7.  To use three finger to swiper desktop (mission control), you HAVE TO set Mission control with Ctrl + Command (Ctrl + Alt or Ctrl + Option).
+    6.  Run Kext Utility and enter your password, waiting to Kext Utility finished (the Quit button enable)
+    7.  To use three finger to swiper desktop (mission control), you HAVE TO set Mission control with Ctrl + Alt.
         Ex: Ctrl + Alt + -> : swiper right
             Ctrl + Alt + <- : swiper left
