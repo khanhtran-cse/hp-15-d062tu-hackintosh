@@ -17,6 +17,7 @@ This build for hp 15 d062tu and running on MacOs X 10.13.6
 # Know problems
     1.  Bluetooh not working
     2.  Card reader
+    3.  VGA Port
 
 # Working
     1.  Wifi

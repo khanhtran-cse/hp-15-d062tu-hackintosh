@@ -218,6 +218,8 @@
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>kext-dev-mode=1 -ath9485 nv_disable=1</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
