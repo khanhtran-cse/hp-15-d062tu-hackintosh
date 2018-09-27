@@ -1,5 +1,5 @@
 # HP 15 D062TU KEXT - HACKINTOSH HIGH SIERRA 10.13.6
-This build for hp 15 d062tu and running on MacOs X 10.13.6
+This build for hp 15 d062tu and running on MacOs X 10.14
 
 ![Alt text](https://ivanov-audio.com/wp-content/uploads/2014/01/Hackintosh-Featured-Image.png)
 
@@ -7,7 +7,7 @@ This build for hp 15 d062tu and running on MacOs X 10.13.6
     1.Name:           HP Notebook 15 D062TU
     2.CPU:            Intel Core i3-3110M
     3.Graphic:        Intel HD 4000
-    4.Wifi:           Athores AR9485 with bluetooth
+    4.Wifi:           Broadcom BCM943225 with bluetooth
     5.Card Reader:    Realtek_CardReader
     6.Camera:         HP Truevision HD  
     7.Audio:          Realtek ALC282
@@ -15,7 +15,6 @@ This build for hp 15 d062tu and running on MacOs X 10.13.6
     9.Bios Version:   F.1B
 
 # Know problems
-    1.  Bluetooh not working
     2.  Card reader
     3.  VGA Port
 
@@ -28,7 +27,8 @@ This build for hp 15 d062tu and running on MacOs X 10.13.6
     6.  CPU
     7.  Battery
     8.  Camera
-    
+    9.  Bluetooh not working
+
 # Installation
     1.  Install newest Clover
     2.  Remove EFI folder in EFI volume

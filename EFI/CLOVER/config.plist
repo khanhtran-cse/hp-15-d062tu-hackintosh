@@ -217,7 +217,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 -ath9485 nv_disable=1</string>
+		<string>kext-dev-mode=1 -igfxbeta nv_disable=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -325,9 +325,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>3</integer>
+			<integer>2</integer>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -365,7 +365,7 @@
 					<key>Type</key>
 					<string>Windows</string>
 					<key>Volume</key>
-					<string>40B3A247-2D92-47A6-A5A0-A50D3916693D</string>
+					<string>632C4E27-A30A-4DBD-83DA-D4CD575DCDE7</string>
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>
@@ -375,13 +375,13 @@
 					<key>Ignore</key>
 					<false/>
 					<key>Path</key>
-					<string>\EFI\ubuntu\grubx64-ubuntu.efi</string>
+					<string>\EFI\ubuntu\grubx64-ubu.efi</string>
 					<key>Title</key>
 					<string>Ubuntu</string>
 					<key>Type</key>
 					<string>Linux</string>
 					<key>Volume</key>
-					<string>46DE3894-68B7-462B-B9F9-23C8CEC83D21</string>
+					<string>632C4E27-A30A-4DBD-83DA-D4CD575DCDE7</string>
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>
@@ -507,7 +507,7 @@
 				<key>Comment</key>
 				<string>AppleHDA - ALC282 (2 of 3)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				hAjsEA==
@@ -523,6 +523,64 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Boot graphics glitch, 10.13 beta (based on denskop patch)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQAAdSI=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOGraphicsFamily</string>
+				<key>Replace</key>
+				<data>
+				AQAA6yI=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.12+-BCM94352-fvco-darkvoid</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.AirPort.Brcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Zeroing 10ec0885 codec (patched by AppleHDA Patcher.app)</string>
 				<key>Disabled</key>
 				<false/>
@@ -533,7 +591,7 @@
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
-				<string>AppleHDA</string>
+				<string>com.apple.driver.AppleHDA</string>
 				<key>Replace</key>
 				<data>
 				AAAAAA==
@@ -551,7 +609,7 @@
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
-				<string>AppleHDA</string>
+				<string>com.apple.driver.AppleHDA</string>
 				<key>Replace</key>
 				<data>
 				ggLsEA==
