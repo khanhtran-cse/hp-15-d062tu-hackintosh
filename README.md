@@ -26,8 +26,8 @@ This build for hp 15 d062tu and running on MacOs X 10.14
     6.  CPU
     7.  Battery
     8.  Camera
-    9.  Bluetooh not working
-    10.  Card reader
+    9.  Bluetooh
+    10. Card reader
 
 # Installation
     1.  Install newest Clover
