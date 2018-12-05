@@ -15,8 +15,7 @@ This build for hp 15 d062tu and running on MacOs X 10.14
     9.Bios Version:   F.1B
 
 # Know problems
-    2.  Card reader
-    3.  VGA Port
+    1.  VGA Port
 
 # Working
     1.  Wifi
@@ -28,11 +27,11 @@ This build for hp 15 d062tu and running on MacOs X 10.14
     7.  Battery
     8.  Camera
     9.  Bluetooh not working
+    10.  Card reader
 
 # Installation
     1.  Install newest Clover
     2.  Remove EFI folder in EFI volume
     3.  Copy EFI folder from this responsitory to EFI volume
     4.  Copy L/E kexts to Library/Extentions folder
-    5.  Copy S/L/E kexts to Systems/Library/Extentions folder
-    6.  Run Kext Utility and enter your password, waiting to Kext Utility finished (the Quit button was enabled)
+    5.  Run Kext Utility and enter your password, waiting to Kext Utility finished (the Quit button was enabled)
