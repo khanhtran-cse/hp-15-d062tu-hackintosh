@@ -1,7 +1,7 @@
 # HP 15 D062TU KEXT - HACKINTOSH MOJAVE 10.14
 This build for hp 15 d062tu and running on MacOs X 10.14
 
-Update:  Cann't turn on Wifi after sleep on MacOs 10.14.4
+Update:  Unable to turn on Wifi after sleep on MacOs 10.14.4
 
 ![Alt text](https://ivanov-audio.com/wp-content/uploads/2014/01/Hackintosh-Featured-Image.png)
 
