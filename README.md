@@ -15,6 +15,7 @@ This build for hp 15 d062tu and running on MacOs X 10.14
     9.Bios Version:   F.1B
 
 # Know problems
+    1. Cann't turn on wifi after sleep on Macos 10.14.4 (worked in 10.14.3)
     2.  Card reader
     3.  VGA Port
 
