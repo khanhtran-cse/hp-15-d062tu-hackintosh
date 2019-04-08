@@ -6,7 +6,7 @@ This build for hp 15 d062tu and running on MacOs X 10.14
 # System specification
     1.Name:           HP Notebook 15 D062TU
     2.CPU:            Intel Core i3-3110M
-    3.Graphic:        Intel HD 4000
+    3.Graphic:        Intel HD 4000/ 1366*768
     4.Wifi:           Broadcom BCM943225 with bluetooth
     5.Card Reader:    Realtek_CardReader
     6.Camera:         HP Truevision HD  

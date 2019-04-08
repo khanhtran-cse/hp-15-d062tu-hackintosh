@@ -1,0 +1,122 @@
+6:645  0:180  Found BIOS RSDP at FE020
+6:645  0:000  Printing ACPI tables from RSDP FE020 ...
+6:645  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:645  0:000    (Xsdt: AAFFE210, Rsdt: AAFFE124)
+6:645  0:000    AAFFE210: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 172
+6:645  0:000    AAFFE124: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 104
+6:645  0:000    Tables in Xsdt: 17
+6:645  0:000    0. AAFFB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+6:645  0:000        (Dsdt: AAFE7000, Facs: AAFB4000, XDsdt: AAFE7000, XFacs: 0)
+6:645  0:000        AAFE7000: 'DSDT', 'SLIC-MPC', Rev: 1, Len: 69435
+6:647  0:001        AAFB4000: 'FACS', Ver: 2, Len: 64
+6:647  0:000    1. AAFFD000: 'UEFI', '218F', Rev: 1, Len: 566
+6:647  0:000    2. AAFFC000: 'ASF!', '218F', Rev: 32, Len: 165
+6:647  0:000    3. AAFFA000: 'HPET', '218F', Rev: 1, Len: 56
+6:647  0:000    4. AAFF9000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+6:647  0:000    5. AAFF8000: 'MCFG', '218F', Rev: 1, Len: 60
+6:647  0:000    6. AAFE6000: 'WDAT', '218F', Rev: 1, Len: 548
+6:647  0:000    7. AAFE5000: 'SSDT', '218F', Rev: 1, Len: 358
+6:647  0:000    8. AAFE3000: 'BOOT', '218F', Rev: 1, Len: 40
+6:647  0:000    9. AAFE1000: 'ASPT', '218F', Rev: 7, Len: 52
+6:647  0:000    10. AAFE0000: 'DBGP', '218F', Rev: 1, Len: 52
+6:647  0:000    11. AAFDE000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+6:647  0:000    12. AAFDC000: 'SSDT', '218F', Rev: 1, Len: 2276
+6:647  0:000    13. AAFDB000: 'SSDT', '218F', Rev: 1, Len: 2850
+6:647  0:000    14. AAFDA000: 'SSDT', '218F', Rev: 1, Len: 727
+6:647  0:000    15. AAFD9000: 'SSDT', '218F', Rev: 1, Len: 840
+6:647  0:000    16. AAFD8000: 'BGRT', '218F', Rev: 1, Len: 56
+6:647  0:000    Tables in Rsdt: 17
+6:647  0:000    0. AAFFB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+6:647  0:000        (Dsdt: AAFE7000, Facs: AAFB4000, XDsdt: AAFE7000, XFacs: 0)
+6:647  0:000        AAFE7000: 'DSDT', 'SLIC-MPC', Rev: 1, Len: 69435
+6:649  0:001        AAFB4000: 'FACS', Ver: 2, Len: 64
+6:649  0:000    1. AAFFD000: 'UEFI', '218F', Rev: 1, Len: 566
+6:649  0:000    2. AAFFC000: 'ASF!', '218F', Rev: 32, Len: 165
+6:649  0:000    3. AAFFA000: 'HPET', '218F', Rev: 1, Len: 56
+6:649  0:000    4. AAFF9000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+6:649  0:000    5. AAFF8000: 'MCFG', '218F', Rev: 1, Len: 60
+6:649  0:000    6. AAFE6000: 'WDAT', '218F', Rev: 1, Len: 548
+6:649  0:000    7. AAFE5000: 'SSDT', '218F', Rev: 1, Len: 358
+6:649  0:000    8. AAFE3000: 'BOOT', '218F', Rev: 1, Len: 40
+6:649  0:000    9. AAFE1000: 'ASPT', '218F', Rev: 7, Len: 52
+6:649  0:000    10. AAFE0000: 'DBGP', '218F', Rev: 1, Len: 52
+6:649  0:000    11. AAFDE000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+6:649  0:000    12. AAFDC000: 'SSDT', '218F', Rev: 1, Len: 2276
+6:649  0:000    13. AAFDB000: 'SSDT', '218F', Rev: 1, Len: 2850
+6:649  0:000    14. AAFDA000: 'SSDT', '218F', Rev: 1, Len: 727
+6:649  0:000    15. AAFD9000: 'SSDT', '218F', Rev: 1, Len: 840
+6:649  0:000    16. AAFD8000: 'BGRT', '218F', Rev: 1, Len: 56
+6:649  0:000  Found UEFI Acpi 2.0 RSDP at AAFFE014
+6:649  0:000  Saving ACPI tables from RSDP AAFFE014 to EFI\CLOVER\ACPI\origin ...
+6:649  0:000   AAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:649  0:000    (Xsdt: AAFFE210, Rsdt: AAFFE124)
+6:649  0:000    AAFFE210: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 172
+6:649  0:000    AAFFE124: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 104
+6:649  0:000    Tables in Xsdt: 17
+6:649  0:000    0. AAFFB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+6:649  0:000        (Dsdt: AAFE7000, Facs: AAFB4000, XDsdt: AAFE7000, XFacs: 0)
+6:649  0:000        AAFE7000: 'DSDT', 'SLIC-MPC', Rev: 1, Len: 69435
+6:651  0:001        AAFB4000: 'FACS', Ver: 2, Len: 64
+6:651  0:000    1. AAFFD000: 'UEFI', '218F', Rev: 1, Len: 566
+6:651  0:000    2. AAFFC000: 'ASF!', '218F', Rev: 32, Len: 165
+6:651  0:000    3. AAFFA000: 'HPET', '218F', Rev: 1, Len: 56
+6:651  0:000    4. AAFF9000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+6:651  0:000    5. AAFF8000: 'MCFG', '218F', Rev: 1, Len: 60
+6:651  0:000    6. AAFE6000: 'WDAT', '218F', Rev: 1, Len: 548
+6:651  0:000    7. AAFE5000: 'SSDT', '218F', Rev: 1, Len: 358
+6:651  0:000    8. AAFE3000: 'BOOT', '218F', Rev: 1, Len: 40
+6:651  0:000    9. AAFE1000: 'ASPT', '218F', Rev: 7, Len: 52
+6:651  0:000    10. AAFE0000: 'DBGP', '218F', Rev: 1, Len: 52
+6:651  0:000    11. AAFDE000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+6:651  0:000    12. AAFDC000: 'SSDT', '218F', Rev: 1, Len: 2276
+6:651  0:000    13. AAFDB000: 'SSDT', '218F', Rev: 1, Len: 2850
+6:651  0:000    14. AAFDA000: 'SSDT', '218F', Rev: 1, Len: 727
+6:651  0:000    15. AAFD9000: 'SSDT', '218F', Rev: 1, Len: 840
+6:651  0:000    16. AAFD8000: 'BGRT', '218F', Rev: 1, Len: 56
+6:651  0:000    Tables in Rsdt: 17
+6:651  0:000    0. AAFFB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+6:651  0:000        (Dsdt: AAFE7000, Facs: AAFB4000, XDsdt: AAFE7000, XFacs: 0)
+6:651  0:000        AAFE7000: 'DSDT', 'SLIC-MPC', Rev: 1, Len: 69435
+6:653  0:001        AAFB4000: 'FACS', Ver: 2, Len: 64
+6:653  0:000    1. AAFFD000: 'UEFI', '218F', Rev: 1, Len: 566
+6:653  0:000    2. AAFFC000: 'ASF!', '218F', Rev: 32, Len: 165
+6:653  0:000    3. AAFFA000: 'HPET', '218F', Rev: 1, Len: 56
+6:653  0:000    4. AAFF9000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+6:653  0:000    5. AAFF8000: 'MCFG', '218F', Rev: 1, Len: 60
+6:653  0:000    6. AAFE6000: 'WDAT', '218F', Rev: 1, Len: 548
+6:653  0:000    7. AAFE5000: 'SSDT', '218F', Rev: 1, Len: 358
+6:653  0:000    8. AAFE3000: 'BOOT', '218F', Rev: 1, Len: 40
+6:653  0:000    9. AAFE1000: 'ASPT', '218F', Rev: 7, Len: 52
+6:653  0:000    10. AAFE0000: 'DBGP', '218F', Rev: 1, Len: 52
+6:653  0:000    11. AAFDE000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+6:653  0:000    12. AAFDC000: 'SSDT', '218F', Rev: 1, Len: 2276
+6:653  0:000    13. AAFDB000: 'SSDT', '218F', Rev: 1, Len: 2850
+6:653  0:000    14. AAFDA000: 'SSDT', '218F', Rev: 1, Len: 727
+6:653  0:000    15. AAFD9000: 'SSDT', '218F', Rev: 1, Len: 840
+6:653  0:000    16. AAFD8000: 'BGRT', '218F', Rev: 1, Len: 56
+6:653  0:000  Found UEFI Acpi 1.0 RSDP at AAFFE000
+6:653  0:000  Printing ACPI tables from RSDP AAFFE000 ...
+6:653  0:000   AAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+6:653  0:000    (Rsdt: AAFFE038)
+6:653  0:000    AAFFE038: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 104
+6:653  0:000    Tables in Rsdt: 17
+6:653  0:000    0. AAFFB000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+6:653  0:000        (Dsdt: AAFE7000, Facs: AAFB4000, XDsdt: AAFE7000, XFacs: 0)
+6:653  0:000        AAFE7000: 'DSDT', 'SLIC-MPC', Rev: 1, Len: 69435
+6:655  0:001        AAFB4000: 'FACS', Ver: 2, Len: 64
+6:655  0:000    1. AAFFD000: 'UEFI', '218F', Rev: 1, Len: 566
+6:655  0:000    2. AAFFC000: 'ASF!', '218F', Rev: 32, Len: 165
+6:655  0:000    3. AAFFA000: 'HPET', '218F', Rev: 1, Len: 56
+6:655  0:000    4. AAFF9000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+6:655  0:000    5. AAFF8000: 'MCFG', '218F', Rev: 1, Len: 60
+6:655  0:000    6. AAFE6000: 'WDAT', '218F', Rev: 1, Len: 548
+6:655  0:000    7. AAFE5000: 'SSDT', '218F', Rev: 1, Len: 358
+6:655  0:000    8. AAFE3000: 'BOOT', '218F', Rev: 1, Len: 40
+6:655  0:000    9. AAFE1000: 'ASPT', '218F', Rev: 7, Len: 52
+6:655  0:000    10. AAFE0000: 'DBGP', '218F', Rev: 1, Len: 52
+6:655  0:000    11. AAFDE000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+6:655  0:000    12. AAFDC000: 'SSDT', '218F', Rev: 1, Len: 2276
+6:655  0:000    13. AAFDB000: 'SSDT', '218F', Rev: 1, Len: 2850
+6:655  0:000    14. AAFDA000: 'SSDT', '218F', Rev: 1, Len: 727
+6:655  0:000    15. AAFD9000: 'SSDT', '218F', Rev: 1, Len: 840
+6:655  0:000    16. AAFD8000: 'BGRT', '218F', Rev: 1, Len: 56
