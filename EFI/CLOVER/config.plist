@@ -210,7 +210,7 @@
 					<key>Comment</key>
 					<string>change XHC1 to XHC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					WEhDMQ==
@@ -694,11 +694,15 @@
 		<string>C02MH0ELDTY3</string>
 		<key>SmUUID</key>
 		<string>E42DEE9D-3B71-4833-8E1E-6495A27B34B8</string>
+		<key>Trust</key>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>BBB3DFA6-2F15-552F-9355-970DE6A981FC</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
