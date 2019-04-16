@@ -6542,6 +6542,7 @@ Store (0xC4, SSMP)
 
             Method (XWAK, 0, Serialized)
             {
+                Return (0)//Remove it if error
                 If (LOr (LEqual (XUSB, One), LEqual (XRST, One)))
                 {
                     XSEL ()
